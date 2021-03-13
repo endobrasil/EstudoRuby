@@ -1,0 +1,21 @@
+* puts -> print
+* aqui não tem tipo básico ou objeto, é tudo objeto 
+* tudo em ruby é objetos
+* criação de variáveis em ruby
+   - nome = "wendel"
+* saber a classe de um objeto
+   - nome.object_id
+* nulo em ruby
+   - nil
+* criação de funções
+   def somar(x,y)
+      puts "outra coisa"
+      x+y
+   end
+irb(main):005:0> somar(1,2)
+* criação de listas
+   - nomes =["andre", "wendel", 10, true]
+* executando programas em ruby
+   - ruby nomeArquivo.txt
+
+
