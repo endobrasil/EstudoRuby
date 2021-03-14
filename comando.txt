@@ -17,5 +17,45 @@ irb(main):005:0> somar(1,2)
    - nomes =["andre", "wendel", 10, true]
 * executando programas em ruby
    - ruby nomeArquivo.txt
+* string
+  - %q(meu texto foi criado)
+	nome = %q(meu texto)
+  - mensagem = "bem vindo #{nome}"
+	puts mensagem
+* - mensagem = <<tXT
+	essa é minha mensagem criada
+* strip upcase downcase captalize split
+nome = "Andre Wendel"
+mensagem = "bem vindo #{nome}"
 
+p mensagem
+p nome.chars
+p nome[0,3]
+puts "-"*10
 
+numero=42
+puts "o número é %05d"%numero   #acrescentando casas decimais no formato do número
+
+p mensagem
+p mensagem.downcase
+p mensagem.upcase
+p mensagem.capitalize
+p mensagem.gsub("bem vindo","bom dia")
+
+*repetição
+for i in 0..10
+  p i
+end
+
+lista = 0..8
+
+lista.each do |m|
+  p m
+end
+ 
+* métodos
+def soma(v1, v2)
+  v1+v2
+end
+
+puts soma(10,6)
