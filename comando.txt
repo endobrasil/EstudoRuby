@@ -87,3 +87,19 @@ método construtor com inicialize
  self -> métodos de classe
  e o "@@" -> variáveis de classe
 
+
+gem install rails
+rails new meu_projeto
+bin/rails server -> vai 3000
+rails generate model Produtos nome:string preco:decimal ativo:boolean
+
+bd com rails
+rails generate model produtos nome:string preco:decimal ativo:boolean
+
+rails db:migrate
+rails db:rollback
+
+rails console
+>Produto executa modelo dessa classe
+>Produto.count
+>instruções sql
