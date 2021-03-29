@@ -59,3 +59,31 @@ def soma(v1, v2)
 end
 
 puts soma(10,6)
+
+* criação de classe
+class NomeDaClasse
+end
+
+objeto=NomeDaClasse.new
+   - NomeDaClasse
+   - nome_da_variavel
+
+* criação de método
+def imprime_ola(nome)
+   puts "olá #{wendel}"
+end
+
+sobre o @nome transformar a variável disponível em toda a vida do objeto
+
+método construtor com inicialize
+  def initialize(nome)
+    @nome=nome
+  end
+
+* importação arquivos
+ require ".classes/pessoa"
+
+ * métodos e variáveis de classe (não muito utilziados em ruby)
+ self -> métodos de classe
+ e o "@@" -> variáveis de classe
+
